@@ -29,10 +29,9 @@ def style_range(ws, cell_range, b=border, al=None, fill=None, fnt=None):
 wb = Workbook()
 
 # Метаданные (Свойства документа)
-wb.properties.creator = "Студент 9/25. РПО"          # Авторы
-wb.properties.lastModifiedBy = "Студент 9/25. РПО"   # Кем сохранён
+wb.properties.creator = "Студент 9/25. РПО"          # Источник → Авторы
+wb.properties.lastModifiedBy = "Студент 9/25. РПО"   # Источник → Кем сохранён
 wb.properties.title = "Задания в Excel"
-wb.properties.keywords = "РПО"
 
 # ---------------------------------------------------------------- Задание 1
 ws1 = wb.active
